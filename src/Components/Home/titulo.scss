@@ -1,0 +1,31 @@
+.contenedorTitulo{
+background-image: url(../../Assets/Anserma.png);
+    //background-color: rgba(193, 237, 240, 0.397);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    p{
+        font-size: 4vw;
+        padding: 2rem;
+        color: rgba(255, 255, 255, 0.486);
+    }
+
+    .contenedorPueblo{
+        text-align: center;
+    }
+    .nombrePueblo{
+        font-weight: 100;
+        position: absolute;
+        right: -3%;
+        top: 72%;
+        transform: translateX(-50%);
+        color: rgba(0, 0, 0, 0.822);
+        //color: white;
+        font-size: 7vw;;
+        white-space: nowrap;
+    }
+}
